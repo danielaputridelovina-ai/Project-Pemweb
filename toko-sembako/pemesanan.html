@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pemesanan - Toko Sembako</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Toko Buah Kelly</h1>
+            <p>Buah segar setiap hari, tubuh sehat penuh energi</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="indexx.html">Beranda</a></li>
+                <li><a href="indexx.html">Produk</a></li>
+                <li><a href="pemesanan.html">Pemesanan</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="form-pemesanan">
+                <h2>Formulir Pemesanan</h2>
+                <form action="berhasil.html">
+                    <label>Nama Pelanggan:</label>
+                    <input type="text" name="nama" required><br><br>
+                    <label>Buah yang dipesan:</label>
+                    <select name="Barang">
+                        <option>Mangga</option>
+                        <option>Rambutan</option>
+                        <option>Kelengkeng</option>
+                        <option>Jeruk</option>
+                        <option>Pisang</option>
+                        <option>Semangka</option>
+                    </select><br><br>
+                    <label>Jumlah:</label>
+                    <input type="number" name="jumlah" min="1" required><br><br>
+                    <label>Alamat Pengiriman:</label>
+                    <textarea name="alamat" required></textarea><br><br>
+                    <button type="submit">Kirim Pesanan</button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
